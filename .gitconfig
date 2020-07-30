@@ -10,6 +10,9 @@
 #	smtpuser = 
 #	smtppass = 
 #	smtpserverport = 587
+#[github]
+#	user = pksunkara
+#	token = token
 [core]
 	editor = vim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
@@ -43,9 +46,6 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
-[github]
-	user = pksunkara
-	token = token
 [gitflow "prefix"]
 	versiontag = v
 [sequence]
